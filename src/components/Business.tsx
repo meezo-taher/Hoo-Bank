@@ -21,10 +21,10 @@ const FeatureCard = ({ icon, title, index, content }: featureProps) => {
       >
         <img src={icon} alt={title} className="w-1/2 h-1/2 object-contain" />
       </div>
-      <div className="flex flex-col text-white ml-6">
+      {/* <div className="flex flex-col text-white ml-6">
         <h1 className={`font-poppins font-semibold mb-1`}>{title}</h1>
         <p>{content}</p>
-      </div>
+      </div> */}
     </div>
   );
 };
