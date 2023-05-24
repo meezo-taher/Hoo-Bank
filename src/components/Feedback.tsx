@@ -15,7 +15,7 @@ function Feedback({ content, name, title, img }: feedbackProps) {
       className={`flex flex-col justify-between px-10 py-12 rounded-[20px] max-w-[370px] md:mr-10 sm:mr5 mr-0 my-5 feedback-card cur`}
     >
       <img
-        className="w-[42px] h-[27px] object-contain"
+        className="w-[42px] h-[27px] object-contain self-center"
         src={quotes}
         alt="quotes"
       />

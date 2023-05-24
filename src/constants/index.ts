@@ -195,18 +195,23 @@ export const socialMedia = [
 export const clients = [
   {
     id: "client-1",
+    name: "airbnb",
     logo: airbnb,
   },
   {
     id: "client-2",
+    name: "binance",
+
     logo: binance,
   },
   {
     id: "client-3",
+    name: "coinbase",
     logo: coinbase,
   },
   {
     id: "client-4",
+    name: "dropbox",
     logo: dropbox,
   },
 ];

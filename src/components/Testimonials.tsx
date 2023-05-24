@@ -1,4 +1,4 @@
-import styles, { layout } from "../stlyes";
+import styles from "../stlyes";
 import Feedback from "./Feedback";
 import { feedback } from "../constants";
 
