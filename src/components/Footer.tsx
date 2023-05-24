@@ -51,7 +51,7 @@ function Footer() {
         <p
           className={`font-poppins font-normal text-[18px] leading-7 text-dimWhite font mb-1`}
         >
-          2021 HooBank. All Rights Reserved.
+          2023 HooBank By Mouaz Taher. All Rights Reserved.
         </p>
         <div className={`flex flex-row md:mt-0 mt-6`}>
           {socialMedia.map((social, index) => (
