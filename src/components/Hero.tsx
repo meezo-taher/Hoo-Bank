@@ -44,9 +44,13 @@ export default function Hero() {
           className="w-full h-full relative z-[5]"
           alt="robot-hand"
         ></img>
+        {/* gradient */}
+
         <div className="absolute z-[0] w-2/5 h-[35%] top-0 pink__gradient"></div>
-        {/* <div className="absolute z-[1] w-[80%] h-[80%] rounded-full bottom-40  white__gradient"></div> */}
-        {/* <div className="absolute z-[0] w-[50%] h-[50%] bottom-20  right-20 blue__gradient"></div> */}
+        {/* <div className="absolute z-[1] w-[80%] h-[80%] rounded-full bottom-40  white__gradient"></div>
+        <div className="absolute z-[0] w-[50%] h-[50%] bottom-20  right-20 blue__gradient"></div> */}
+
+        {/* gradient */}
       </div>
       <div className={`${styles.flexCenter} ss:hidden`}>
         <GetStarted></GetStarted>

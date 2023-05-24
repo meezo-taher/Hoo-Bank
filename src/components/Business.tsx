@@ -12,7 +12,7 @@ type featureProps = {
 const FeatureCard = ({ icon, title, index, content }: featureProps) => {
   return (
     <div
-      className={` flex flex-row p-6 rounded-[20px] ${
+      className={` flex flex-row p-6 rounded-[20px] cursor-pointer ${
         index !== features.length ? "mb-6" : "mb-0"
       } feature-card`}
     >
@@ -21,10 +21,16 @@ const FeatureCard = ({ icon, title, index, content }: featureProps) => {
       >
         <img src={icon} alt={title} className="w-1/2 h-1/2 object-contain" />
       </div>
-      {/* <div className="flex flex-col text-white ml-6">
-        <h1 className={`font-poppins font-semibold mb-1`}>{title}</h1>
-        <p>{content}</p>
-      </div> */}
+      <div className="flex flex-1 flex-col text-white ml-3">
+        <h4
+          className={`font-poppins font-semibold text-[18px] leading-[23px] mb-1`}
+        >
+          {title}
+        </h4>
+        <p className="font-poppins font-normal text-[18px] leading-[24px] mb-1 text-dimWhite">
+          {content}
+        </p>
+      </div>
     </div>
   );
 };
